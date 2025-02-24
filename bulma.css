@@ -1,0 +1,26 @@
+.is-centered-vertically {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    min-width: 600px;
+    margin: a
+}
+
+body,
+h1,
+p,
+label,
+button,
+select {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+}
+
+.subtitle {
+    font-size: 12px;
+    margin: 5px;
+}
