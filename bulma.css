@@ -95,7 +95,7 @@ select {
     }
 
     #rpsChoices .button {
-        font-size: 10px;
+        font-size: 12px;
         padding: 5px;
         margin-left: 0;
         flex: 1;
@@ -103,8 +103,7 @@ select {
 
     #rpsChoices {
         display: none;
-        font-size: 8px;
-        display: flex;
+        font-size: 10px;
         justify-content: space-between;
         gap: 10px;
     }
