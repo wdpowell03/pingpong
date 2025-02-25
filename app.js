@@ -68,7 +68,8 @@ function playRockPaperScissors(playerChoice) {
         if (p2Score === winningScore) {
             isGameOver = true;
             resultDisplay.textContent += ' Computer wins the game!';
-            p1Button.textContent = 'Winner';
+            p1Button.textContent = 'Loser';
+            p1Button.style.backgroundColor = 'red';
         }
     }
     rpsChoices.style.display = 'none';
