@@ -96,6 +96,11 @@ select {
         padding: 5px;
     }
 
+    #resultDisplay {
+        padding-left: -20px;
+
+    }
+
     .field.is-grouped .label {
         font-size: 12px;
         margin-left: -20px;
