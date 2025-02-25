@@ -7,18 +7,15 @@
 
 .card {
     min-width: 600px;
-
 }
 
-.title is-1 {
+.title.is-1 {
     font-size: 12px;
 }
 
 .card-header-title {
     font-size: 20px;
 }
-
-
 
 body,
 h1,
@@ -33,4 +30,34 @@ select {
 .subtitle {
     font-size: 12px;
     margin: 5px;
+}
+
+
+@media (max-width: 600px) {
+    .card {
+        min-width: 100%;
+        padding: 10px;
+    }
+
+    .title.is-1 {
+        font-size: 10px;
+    }
+
+    .card-header-title {
+        font-size: 16px;
+    }
+
+    body,
+    h1,
+    p,
+    label,
+    button,
+    select {
+        font-size: 10px;
+    }
+
+    .subtitle {
+        font-size: 10px;
+        margin: 3px;
+    }
 }
