@@ -43,6 +43,8 @@ function reset() {
     p1Button.textContent = 'Hit the Ball';
 }
 
+
+// Rock, Paper, Scissors logic
 function playRockPaperScissors(playerChoice) {
     const choices = ['rock', 'paper', 'scissors'];
     const computerChoice = choices[Math.floor(Math.random() * choices.length)];
