@@ -78,12 +78,16 @@ select {
     }
 
     .select.is-rounded select {
-        font-size: 10px;
+        font-size: 8px;
         padding: 8px;
     }
 
     #rpsChoices .button {
         font-size: 10px;
         padding: 5px;
+    }
+
+    .field.is-grouped .label {
+        font-size: 8px;
     }
 }
