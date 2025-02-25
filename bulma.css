@@ -10,7 +10,8 @@
 }
 
 .title.is-1 {
-    font-size: 12px;
+    font-size: 14px;
+    padding: 10px;
 }
 
 .card-header-title {
