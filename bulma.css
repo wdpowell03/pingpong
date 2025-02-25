@@ -40,8 +40,9 @@ select {
 
 @media (max-width: 600px) {
     .card {
-        min-width: 100%;
+        min-width: 90%;
         padding: 10px;
+        margin: 0 auto;
     }
 
     .title.is-1 {
