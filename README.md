@@ -1,9 +1,12 @@
-This was a project that I did in my udemy course, "The Web Developer Bootcamp 2025".
+This was a project that I did in my Udemy course, "The Web Developer Bootcamp 2025".
 
 
 
-I used HTML, CSS (Bulma), and JS to make this interactive game.
-I plan on implementing some feature in the future where the ping pong hits are based on some logic puzzle (a mini game within the game) against a computer.
-Whether you win or lose against the computer in the minigame, you will "hit" the ball, gaining a point.
+I used HTML, CSS (Bulma), and JS to make this interactive game. The initial code along only
+implemented a score keeping feature, but I want to expand on that and make a simple, fun way to 
+pass time. 
+
+Click "Hit The Ball" then take your choice of Rock, Paper, or Scissors to try and score
+on the computer. 
 
 Find the current running version @ pingpong-mini-game.vercel.app
