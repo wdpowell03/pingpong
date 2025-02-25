@@ -26,10 +26,6 @@ rockButton.addEventListener('click', () => playRockPaperScissors('rock'));
 paperButton.addEventListener('click', () => playRockPaperScissors('paper'));
 scissorsButton.addEventListener('click', () => playRockPaperScissors('scissors'));
 
-winningScoreSelect.addEventListener('change', function () {
-    winningScore = parseInt(this.value);
-    reset();
-})
 
 resetButton.addEventListener('click', reset)
 
