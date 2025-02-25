@@ -39,6 +39,7 @@ function reset() {
     p2Display.textContent = 0;
     resultDisplay.textContent = '';
     rpsChoices.style.display = 'none';
+    p1Button.style.backgroundColor = '';
     p1Button.textContent = 'Hit the Ball';
 }
 
