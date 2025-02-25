@@ -7,8 +7,18 @@
 
 .card {
     min-width: 600px;
-    margin: a
+
 }
+
+.title is-1 {
+    font-size: 12px;
+}
+
+.card-header-title {
+    font-size: 20px;
+}
+
+
 
 body,
 h1,
