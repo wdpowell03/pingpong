@@ -44,7 +44,7 @@ function reset() {
 }
 
 
-// Rock, Paper, Scissors logic
+// Rock, Paper, Scissors logic add on
 function playRockPaperScissors(playerChoice) {
     const choices = ['rock', 'paper', 'scissors'];
     const computerChoice = choices[Math.floor(Math.random() * choices.length)];
