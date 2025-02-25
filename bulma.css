@@ -84,7 +84,7 @@ select {
     .select.is-rounded select {
         width: 100%;
         font-size: 12px;
-        padding: 5px;
+        padding: 15px;
     }
 
     .select.is-rounded select option {
