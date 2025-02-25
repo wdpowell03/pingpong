@@ -14,6 +14,8 @@ let p2Score = 0;
 let winningScore = 3;
 let isGameOver = false;
 
+let lastScore = null;
+
 p1Button.addEventListener('click', function () {
     if (!isGameOver) {
         rpsChoices.style.display = 'block';
@@ -41,6 +43,8 @@ function reset() {
     rpsChoices.style.display = 'none';
     p1Button.style.backgroundColor = '';
     p1Button.textContent = 'Hit the Ball';
+
+    lastScore = null;
 }
 
 
@@ -64,6 +68,11 @@ function playRockPaperScissors(playerChoice) {
             resultDisplay.textContent += '';
             p1Button.textContent = 'Winner';
         }
+        if (lastScore !== 'player1') {
+            pingpongImage.classList.toggle('flip');
+            lastScore = 'player1'
+        }
+
     } else {
         resultDisplay.textContent = `You lose! ${computerChoice} beats ${playerChoice}.`;
         p2Score += 1;
@@ -74,6 +83,12 @@ function playRockPaperScissors(playerChoice) {
             p1Button.textContent = 'Loser';
             p1Button.style.backgroundColor = 'red';
         }
+        if (lastScore !== 'player2') {
+            pingpongImage.classList.toggle('flip');
+            lastScore = 'player2'
+        }
+
     }
+
     rpsChoices.style.display = 'none';
 }

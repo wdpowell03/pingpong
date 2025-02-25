@@ -37,6 +37,9 @@ select {
     padding: 10px;
 }
 
+.flip {
+    transform: scaleX(-1);
+}
 
 @media (max-width: 600px) {
     .card {
