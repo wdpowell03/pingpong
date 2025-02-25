@@ -76,4 +76,14 @@ select {
         width: 100%;
         height: auto;
     }
+
+    .select.is-rounded select {
+        font-size: 8px;
+        padding: 5px;
+    }
+
+    #rpsChoices .button {
+        font-size: 8px;
+        padding: 5px;
+    }
 }
