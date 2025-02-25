@@ -48,7 +48,7 @@ select {
     .title.is-1 {
         font-size: 10px;
         padding-right: 40px;
-        margin-left: 10px;
+        margin-left: -20px;
     }
 
     .card-header-title {
@@ -68,7 +68,7 @@ select {
         font-size: 10px;
         margin: 3px;
         padding-right: 40px;
-        margin-left: 10px;
+        margin-left: -20px;
     }
 
     .container.is-centered-vertically {
@@ -97,5 +97,6 @@ select {
 
     .field.is-grouped .label {
         font-size: 12px;
+        margin-left: -20px;
     }
 }
