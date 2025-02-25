@@ -2,7 +2,7 @@ This was a project that I did in my Udemy course, "The Web Developer Bootcamp 20
 
 
 
-I used HTML, CSS (Bulma), and JS to make this interactive game. The initial code along only
+I used HTML, CSS (Bulma), and JS to make this interactive game. The initial code-along only
 implemented a score keeping feature, but I wanted to expand on that and make a simple, fun way to 
 pass time. 
 
