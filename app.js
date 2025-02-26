@@ -22,10 +22,20 @@ p1Button.addEventListener('click', function () {
     }
 })
 
-rockButton.addEventListener('click', () => playRockPaperScissors('rock'));
-paperButton.addEventListener('click', () => playRockPaperScissors('paper'));
-scissorsButton.addEventListener('click', () => playRockPaperScissors('scissors'));
+rockButton.addEventListener('click', function () {
+    playRockPaperScissors('rock');
+    pingpongImage.classList.toggle('flip');
+});
+paperButton.addEventListener('click', function () {
+    playRockPaperScissors('paper');
+    pingpongImage.classList.toggle('flip');
+});
 
+scissorsButton.addEventListener('click', function () {
+    playRockPaperScissors('scissors');
+    pingpongImage.classList.toggle('flip');
+
+});
 
 resetButton.addEventListener('click', reset)
 
@@ -51,6 +61,7 @@ function playRockPaperScissors(playerChoice) {
 
     if (playerChoice === computerChoice) {
         resultDisplay.textContent = `It's a tie! Both chose ${playerChoice}.`;
+
     } else if (
         (playerChoice === 'rock' && computerChoice === 'scissors') ||
         (playerChoice === 'paper' && computerChoice === 'rock') ||
@@ -64,8 +75,8 @@ function playRockPaperScissors(playerChoice) {
             resultDisplay.textContent += '';
             p1Button.textContent = 'Winner';
         }
+
         if (lastScore !== 'player1') {
-            pingpongImage.classList.toggle('flip');
             lastScore = 'player1'
         }
 
@@ -79,8 +90,8 @@ function playRockPaperScissors(playerChoice) {
             p1Button.textContent = 'Loser';
             p1Button.style.backgroundColor = 'red';
         }
+
         if (lastScore !== 'player2') {
-            pingpongImage.classList.toggle('flip');
             lastScore = 'player2'
         }
 
